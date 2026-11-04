@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="AprenderCSharp_Console.cs" />
     <Compile Include="CaseFechasPracticas.cs" />
+    <Compile Include="CondicionIF.cs" />
     <Compile Include="Enviar_Correo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
