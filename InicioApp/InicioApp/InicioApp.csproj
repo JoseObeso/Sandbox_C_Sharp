@@ -44,10 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AprenderCSharp_Console.cs" />
-    <Compile Include="Operadores.cs" />
+    <Compile Include="CaseFechasPracticas.cs" />
+    <Compile Include="Enviar_Correo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sonidosconsolebeep.cs" />
+    <Compile Include="Variables_Operadores.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

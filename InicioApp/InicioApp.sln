@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.37827.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InicioApp", "InicioApp\InicioApp.csproj", "{564D3B9A-7C3E-477B-AC99-E09CB21FFCDA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_Nutshell", "CSharp_Nutshell\CSharp_Nutshell.csproj", "{48406CB6-D6BA-4E89-A663-4AA9982F0430}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{564D3B9A-7C3E-477B-AC99-E09CB21FFCDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{564D3B9A-7C3E-477B-AC99-E09CB21FFCDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{564D3B9A-7C3E-477B-AC99-E09CB21FFCDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48406CB6-D6BA-4E89-A663-4AA9982F0430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48406CB6-D6BA-4E89-A663-4AA9982F0430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48406CB6-D6BA-4E89-A663-4AA9982F0430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48406CB6-D6BA-4E89-A663-4AA9982F0430}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
