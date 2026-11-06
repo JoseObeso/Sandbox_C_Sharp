@@ -7,9 +7,33 @@ namespace InicioApp
     {
         static void Main(string[] args)
         {
-            CondicionIF Ver_If = new CondicionIF();
-            Ver_If.TestIf(50, 654);
+
+            Ahorros Ver_Todo_Ahorros = new Ahorros();
+
+            Console.WriteLine("Banco de la Esperanza");
+            Console.WriteLine("-------------------------");
+
+            Console.WriteLine("Ahorros");
+            Console.WriteLine("-------------------------");
+
+            Console.WriteLine("Ingrese Cantidad a depositar");
+            int Ideposito = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Saldo Disponible : {0} ", Ver_Todo_Ahorros.IverSaldo(Ideposito));
+
+            Console.WriteLine("Ingrese Cantidad a Retirar");
+
+            int Iretiro = Convert.ToInt32(Console.ReadLine());
+
+
+
+
             Console.ReadKey();
+
+
+
+
+
         }
     }
 }
