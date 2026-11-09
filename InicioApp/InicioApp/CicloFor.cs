@@ -20,6 +20,30 @@ namespace InicioApp
         }
 
 
+        public void V2Contar(int Ab)
+        {
+
+            for (int i = 0; i < Ab; i++)
+            {
+                Console.WriteLine("A qui va {0}:", i);
+            }
+
+        }
+
+        public void OpeIncremento(int Inum)
+        {
+            int contador = 0, acumulador = 0;
+
+            for (int i = 0; i < Inum; i++)
+            {
+                contador++;
+                acumulador = acumulador + contador;
+                Console.WriteLine("Contador : {0}, acumulador : {1}", contador, contador);
+            }
+
+
+
+        }
 
     }
 }

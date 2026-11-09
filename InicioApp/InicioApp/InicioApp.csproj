@@ -51,6 +51,7 @@
     <Compile Include="Enviar_Correo.cs" />
     <Compile Include="EstructuraSwitch.cs" />
     <Compile Include="ExpresionesLogicasv1.cs" />
+    <Compile Include="ForEachdemo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Programa3Numeros.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

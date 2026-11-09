@@ -44,8 +44,13 @@ namespace InicioApp
 
             // VContar
 
-            CicloFor Ver_For = new CicloFor();
-            Ver_For.VContar(20);
+            //CicloFor Ver_For = new CicloFor();
+            //Ver_For.OpeIncremento(10);
+
+
+
+            ForEachdemo Ver_Letras = new ForEachdemo();
+            Ver_Letras.ForEachEjemplo("Edelmira Facundo Santos");
 
 
 
