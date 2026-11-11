@@ -47,6 +47,7 @@
     <Compile Include="AprenderCSharp_Console.cs" />
     <Compile Include="Aprender_WriteLine.cs" />
     <Compile Include="ArrayEjemplo.cs" />
+    <Compile Include="ArrayListDatos.cs" />
     <Compile Include="CaseFechasPracticas.cs" />
     <Compile Include="CicloFor.cs" />
     <Compile Include="CondicionIF.cs" />

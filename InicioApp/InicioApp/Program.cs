@@ -86,8 +86,12 @@ namespace InicioApp
             //    Console.WriteLine(" Hola :{0}, hola tambien a {1}", args[0], args[1]);
             //}
 
-            
 
+
+
+            ArrayListDatos ver_Arraylist = new ArrayListDatos();
+
+            ver_Arraylist.PrimerArrayList();
 
 
 
