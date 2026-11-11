@@ -89,15 +89,30 @@ namespace InicioApp
 
 
 
-            ArrayListDatos ver_Arraylist = new ArrayListDatos();
+            // ArrayListDatos ver_Arraylist = new ArrayListDatos();
 
-            ver_Arraylist.PrimerArrayList();
-
-
+            // ver_Arraylist.PrimerArrayList();
 
 
+            // ver WriteLinea
+            //Aprender_WriteLine Ver_WriteLine = new Aprender_WriteLine();
+            //Ver_WriteLine.MostrarCW();
 
-            // Console.ReadKey();
+
+
+            SintaxysBasicaCSharp Ver_Syntaxis = new SintaxysBasicaCSharp();
+
+            Ver_Syntaxis.BoolEjemplo();
+
+
+
+
+
+
+
+
+
+             
 
 
 
