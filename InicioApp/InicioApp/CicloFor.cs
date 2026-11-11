@@ -45,5 +45,18 @@ namespace InicioApp
 
         }
 
+        public void CasFor()
+        {
+
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine($"Iteración número: {i}");
+            }
+
+        }
+
+
+
+
     }
 }

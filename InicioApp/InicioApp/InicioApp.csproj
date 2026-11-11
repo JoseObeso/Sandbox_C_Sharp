@@ -45,6 +45,8 @@
   <ItemGroup>
     <Compile Include="Ahorros.cs" />
     <Compile Include="AprenderCSharp_Console.cs" />
+    <Compile Include="Aprender_WriteLine.cs" />
+    <Compile Include="ArrayEjemplo.cs" />
     <Compile Include="CaseFechasPracticas.cs" />
     <Compile Include="CicloFor.cs" />
     <Compile Include="CondicionIF.cs" />

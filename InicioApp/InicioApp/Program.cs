@@ -49,13 +49,51 @@ namespace InicioApp
 
 
 
-            ForEachdemo Ver_Letras = new ForEachdemo();
-            Ver_Letras.ForEachEjemplo("Edelmira Facundo Santos");
+            //ForEachdemo Ver_Letras = new ForEachdemo();
+            //Ver_Letras.ForEachEjemplo("Edelmira Facundo Santos");
+
+
+            ArrayEjemplo Ver_Array = new ArrayEjemplo();
+            // Ver_Array.ArrayBasico();
+
+            //  Ver_Array.Crear_Array();
+
+
+            //ForEachdemo Ver_Letras = new ForEachdemo();
+            //Ver_Letras.OtroForEach();
+
+
+
+            //  CicloFor Ver_For = new CicloFor();
+            // Ver_For.CasFor();
+
+
+            // ver WriteLinea
+            //Aprender_WriteLine Ver_WriteLine = new Aprender_WriteLine();
+            //Ver_WriteLine.PrimerWriteLine();
+
+
+            //if (args.Length==0)
+            //{
+            //    Console.WriteLine(" Bienvenido, No Ingreso ningun dato");
+            //}
+            //else if (args.Length==1)
+            //{
+            //    Console.WriteLine(" Hola :{0} ", args[0]);
+            //}
+            //else
+            //{
+            //    Console.WriteLine(" Hola :{0}, hola tambien a {1}", args[0], args[1]);
+            //}
+
+            
 
 
 
 
-            Console.ReadKey();
+
+
+            // Console.ReadKey();
 
 
 

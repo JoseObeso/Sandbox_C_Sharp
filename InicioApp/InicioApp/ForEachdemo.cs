@@ -19,6 +19,18 @@ namespace InicioApp
 
         }
 
+        public void OtroForEach()
+        {
+            string[] frutas = { "Manzana", "Banana", "Naranja" };
+
+            foreach (var fruta in frutas)
+            {
+                Console.WriteLine(fruta);
+            }
+
+
+        }
+
 
 
 
