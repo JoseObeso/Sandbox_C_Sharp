@@ -112,28 +112,48 @@ namespace InicioApp
             // Ver_Syntaxis.ConcatenarCadenaTexto();
             // Ver_Syntaxis.Add_demo();
 
-            Ver_Syntaxis.Interpolacion_demo();
+            // Ver_Syntaxis.CondicionIFelseIF();
 
 
+            //CicloFor Ver_For = new CicloFor();
+            //Ver_For.CasForSuma();
 
 
+            ArrayEjemplo ver_Array = new ArrayEjemplo();
 
+            //  ver_Array.Tipos_array();
 
+            //MyMethod();
+            //MostrarNombres("Jose");
+            //MostrarNombres("Mery Edel");
+            //MostrarNombres("Maria Edelmira");
 
+            Paises("Chile");
 
-
-
-
-
-
-
-
-
-
+            Paises("Colombia");
+            Paises();
 
 
 
 
         }
+        static void MyMethod()
+        {
+            Console.WriteLine("Desde un Metodo");
+        }
+
+        static void MostrarNombres(string fname)
+        {
+            Console.WriteLine(fname + " Fue llamado");
+        }
+
+        static void Paises(string country = "Peru")
+        {
+            Console.WriteLine(country);
+        }
+
+
     }
+
+   
 }

@@ -111,8 +111,85 @@ namespace InicioApp
             Console.WriteLine(name);
         }
 
+        public void Cadena_Array()
+        {
+            string myString = "Jose Obeso";
+            Console.WriteLine(myString[3]);  // Outputs "J"
 
 
+        }
+        public void Cadena_posision()
+        {
+
+            string myString = "Hello";
+            Console.WriteLine(myString.IndexOf("e"));  // Outputs "1"
+        }
+
+        public void Cadena_busqueda()
+        {
+
+            // Full name
+            string name = "John Doe";
+
+            // Location of the letter D
+            int charPos = name.IndexOf("D");
+
+            // Get last name
+            string lastName = name.Substring(charPos);
+
+            // Print the result
+            Console.WriteLine(lastName);
+
+        }
+
+        public void Cadena_mostrar()
+        {
+            // string txt = "te llamamos por apodo \"Vikingos\" from the north.";
+            // string txt = "It\'s alright.";
+            // string txt = "The character \\ is called backslash.";
+            // string txt = "Primera Linea \nSegunda Linea";
+            // string txt = "Este es un tab \t despues del TAB";
+            string txt = "Este es un back\b despues del bak";
+
+
+            Console.WriteLine(txt);
+
+
+        }
+
+        public void CondicionIF()
+        {
+            int time = 20;
+            if (time < 18)
+            {
+                Console.WriteLine("Good day.");
+            }
+            else
+            {
+                Console.WriteLine("Good evening.");
+            }
+            // Outputs "Good evening.
+
+        }
+        public void CondicionIFelseIF()
+        {
+
+            int time = 22;
+            if (time < 10)
+            {
+                Console.WriteLine("Good morning.");
+            }
+            else if (time < 20)
+            {
+                Console.WriteLine("Good day.");
+            }
+            else
+            {
+                Console.WriteLine("Good evening.");
+            }
+            // Outputs "Good evening."
+
+        }
 
 
 

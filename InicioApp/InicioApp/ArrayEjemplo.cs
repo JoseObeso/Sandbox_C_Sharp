@@ -75,7 +75,7 @@ namespace InicioApp
         }
 
 
-        public  void Crear_Array()
+        public void Crear_Array()
         {
 
             string[] frutas = new string[4];
@@ -99,6 +99,29 @@ namespace InicioApp
 
 
         }
+
+        public void Ver_ArrayDemo()
+        {
+
+
+            string[] cars = { "Volvo", "BMW", "Ford", "Mazda" };
+            foreach (string i in cars)
+            {
+                Console.WriteLine("Marcas : " + i);
+            }
+        }
+
+
+        public void Tipos_array()
+
+        {
+            int[] myNumbers = { 5, 1 };
+            Console.WriteLine(myNumbers.Max());  // returns the largest value
+            Console.WriteLine(myNumbers.Min());  // returns the smallest value
+            Console.WriteLine(myNumbers.Sum());  // returns the sum of elements
+
+        }
+
 
 
     }
