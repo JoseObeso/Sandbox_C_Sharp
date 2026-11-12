@@ -102,7 +102,17 @@ namespace InicioApp
 
             SintaxysBasicaCSharp Ver_Syntaxis = new SintaxysBasicaCSharp();
 
-            Ver_Syntaxis.BoolEjemplo();
+            // Ver_Syntaxis.BoolEjemplo();
+
+            // Ver_Syntaxis.Convertira_Cadena();
+
+            // Ver_Syntaxis.InputEjemplo();
+
+            // Ver_Syntaxis.InputEdad();
+            // Ver_Syntaxis.ConcatenarCadenaTexto();
+            // Ver_Syntaxis.Add_demo();
+
+            Ver_Syntaxis.Interpolacion_demo();
 
 
 
@@ -112,7 +122,13 @@ namespace InicioApp
 
 
 
-             
+
+
+
+
+
+
+
 
 
 
