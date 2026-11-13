@@ -5,8 +5,95 @@ namespace InicioApp
 {
     class Program
     {
+
+        string color, vnombre;
+        int maxSpeed;
+
+        enum Months
+        {
+            Enero,    // 0
+            Febrero,   // 1
+            Marzo,      // 2
+            Abril,      // 3
+            Mayo,        // 4
+            Junio,       // 5
+            Julio        // 6
+        }
+
+        enum Level
+        {
+            Low,
+            Medium,
+            High
+        }
+
+
+
         static void Main(string[] args)
         {
+
+
+
+            Level myVar = Level.Medium;
+            switch (myVar)
+            {
+                case Level.Low:
+                    Console.WriteLine("Low level");
+                    break;
+                case Level.Medium:
+                    Console.WriteLine("Medium level");
+                    break;
+                case Level.High:
+                    Console.WriteLine("High level");
+                    break;
+            }
+
+
+
+            //int myNum = (int)Months.Mayo;
+            //Console.WriteLine(myNum);
+
+
+
+            //Program myObj = new Program();
+
+            //myObj.color = "Verde";
+            //myObj.vnombre = "Jose Obeso";
+            //myObj.maxSpeed = 120;
+
+
+
+            //Console.WriteLine(myObj.color);
+            //Console.WriteLine(myObj.maxSpeed);
+            //Console.WriteLine(myObj.vnombre);
+
+
+            //Console.WriteLine("--------------------");
+            //Program myObj2 = new Program();
+
+            //myObj2.color = "Azul";
+            //myObj2.vnombre = "Maria Edelmira";
+            //myObj2.maxSpeed = 650;
+
+
+
+            //Console.WriteLine(myObj2.color);
+            //Console.WriteLine(myObj2.maxSpeed);
+            //Console.WriteLine(myObj2.vnombre);
+
+            //Console.WriteLine("--------------------");
+
+            //Program myObj3 = new Program();
+
+            //myObj3.color = "Azul-Amarillo";
+            //myObj3.vnombre = "Maria Edelmira Facundo de Obeso";
+            //myObj3.maxSpeed = 874;
+
+
+
+            //Console.WriteLine(myObj3.color);
+            //Console.WriteLine(myObj3.maxSpeed);
+            //Console.WriteLine(myObj3.vnombre);
 
             //Ahorros Ver_Todo_Ahorros = new Ahorros();
 
@@ -128,10 +215,10 @@ namespace InicioApp
             //MostrarNombres("Mery Edel");
             //MostrarNombres("Maria Edelmira");
 
-            Paises("Chile");
+            //Paises("Chile");
 
-            Paises("Colombia");
-            Paises();
+            //Paises("Colombia");
+            //Paises();
 
 
 
