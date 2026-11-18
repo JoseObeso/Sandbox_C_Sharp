@@ -27,26 +27,54 @@ namespace InicioApp
             High
         }
 
+        class Cubo
+        {
+            // Declaramos los datos
+            public int lado;
+            public int area;
+            public int volumen;
+
+            // Método para calcular el área
+            public void CalculaArea()
+            {
+                area = (lado * lado) * 6;
+            }
+            // Método para calcular el volumen
+            public void CalculaVolumen()
+            {
+                volumen = lado * lado * lado;
+            }
+        }
+
 
 
         static void Main(string[] args)
         {
 
 
-
-            Level myVar = Level.Medium;
-            switch (myVar)
+            Cubo Ver_Cubo = new Cubo
             {
-                case Level.Low:
-                    Console.WriteLine("Low level");
-                    break;
-                case Level.Medium:
-                    Console.WriteLine("Medium level");
-                    break;
-                case Level.High:
-                    Console.WriteLine("High level");
-                    break;
-            }
+                lado = 7
+            };
+
+            Console.WriteLine("Area = {0}, Volumen = {1}", Ver_Cubo.area, Ver_Cubo.volumen);
+
+
+
+
+            //Level myVar = Level.Medium;
+            //switch (myVar)
+            //{
+            //    case Level.Low:
+            //        Console.WriteLine("Low level");
+            //        break;
+            //    case Level.Medium:
+            //        Console.WriteLine("Medium level");
+            //        break;
+            //    case Level.High:
+            //        Console.WriteLine("High level");
+            //        break;
+            //}
 
 
 
@@ -224,20 +252,20 @@ namespace InicioApp
 
 
         }
-        static void MyMethod()
-        {
-            Console.WriteLine("Desde un Metodo");
-        }
+        //static void MyMethod()
+        //{
+        //    Console.WriteLine("Desde un Metodo");
+        //}
 
-        static void MostrarNombres(string fname)
-        {
-            Console.WriteLine(fname + " Fue llamado");
-        }
+        //static void MostrarNombres(string fname)
+        //{
+        //    Console.WriteLine(fname + " Fue llamado");
+        //}
 
-        static void Paises(string country = "Peru")
-        {
-            Console.WriteLine(country);
-        }
+        //static void Paises(string country = "Peru")
+        //{
+        //    Console.WriteLine(country);
+        //}
 
 
     }

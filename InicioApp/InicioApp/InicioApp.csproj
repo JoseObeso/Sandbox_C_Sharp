@@ -50,6 +50,7 @@
     <Compile Include="ArrayListDatos.cs" />
     <Compile Include="CaseFechasPracticas.cs" />
     <Compile Include="CicloFor.cs" />
+    <Compile Include="Clase1_Figuras.cs" />
     <Compile Include="CondicionIF.cs" />
     <Compile Include="Enviar_Correo.cs" />
     <Compile Include="EstructuraSwitch.cs" />
