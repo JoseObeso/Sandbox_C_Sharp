@@ -48,6 +48,7 @@
     <Compile Include="Aprender_WriteLine.cs" />
     <Compile Include="ArrayEjemplo.cs" />
     <Compile Include="ArrayListDatos.cs" />
+    <Compile Include="Cadena_Demo.cs" />
     <Compile Include="CaseFechasPracticas.cs" />
     <Compile Include="CicloFor.cs" />
     <Compile Include="CondicionIF.cs" />
